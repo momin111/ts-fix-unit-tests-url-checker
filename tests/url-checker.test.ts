@@ -12,7 +12,7 @@ describe('LinkChecker', () => {
         expect(linkChecker.isValidUrl('https://www.example.com')).toBe(true);
     })
 
-    // FIXME
+    // FIXME test
     test('should return true for valid URL with http', () => {
         expect(linkChecker.isValidUrl('http://www.example.com'))
     })
